@@ -1,1 +1,115 @@
+body {
+    font-family: sans-serif;
+}
+header{
+    background-color: #00F845;
 
+}
+header h1{
+    padding: 15px;
+    text-align: center;
+    font-size: 50px;
+}
+header img{
+    float: left;
+}
+header p{
+    text-align: center;
+    font-size: 30px;
+    border:3px solid #2A27B4;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #C4C4C4;
+
+}
+.class{
+    display: flex;
+    justify-content: space-around;
+}
+header div{
+    justify-content: space-around;
+}
+.class{
+
+    display: flex;
+    justify-content: space-around;
+}
+main{
+    background:#FEFFC8;
+}
+main h1{
+    text-align: center;
+
+}
+.zagolovok{
+    font-size: 50px;
+    border:3px solid #2A27B4;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #8CD17A;
+}
+.cat1 img{
+    text-align: center;
+    width: 1000px;
+}
+.cat1{
+    text-align: center;
+}
+.karta{
+    text-align: center;
+    background-color: #67E667;
+}
+.karta p{
+    font-size: 45px;
+}
+.poroda{
+    text-align: center;
+    background-color: #39E639;
+    font-size: 40px;
+    padding: 10px;
+}
+.poroda1{
+    display: flex;
+    justify-content: space-around;
+}
+.poroda p {
+    font-size: 45px;
+}
+.dostavka{
+    text-align: center;
+    background-color: #00CC00;
+}
+.dostavka p{
+    font-size: 45px;
+}
+.bolnica{
+    text-align: center;
+    background-color: 
+#269926;
+}
+.bolnica p{
+    font-size: 45px;
+}
+.r{
+    width: 1500px;
+    float: left;
+    font-size: 40px;
+    background-color: #FEFFC8;
+}
+.r {
+    border-left: 10px double navy;
+    padding-left: 10px;
+}
+.r p{
+    font-size: 30px;
+}
+.ra{
+    background-color: #FEFFC8;
+}
+.rar{
+    font-size: 50px;
+}
+footer p{
+    background-color: #00CC00;
+    font-size: 30px
+}
