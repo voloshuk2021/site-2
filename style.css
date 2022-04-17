@@ -1,24 +1,35 @@
 body {
     font-family: sans-serif;
+    width: 100%;
 }
 header{
     position: fixed;
     background-color: #00F845;
-    top:0px
-    right:0px
-    wight: 3000px
-    height: 200px
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100px
+}
+header a{
+    text-decoration: none;
+    height: 33px;
+    position: relative;
+    top: 30px;
 
 }
+
 header h1{
-    padding: 15px;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 header img{
+    position: relative;
     float: left;
+    bottom: 17px;
+    left: 10px;
+    width: 75px;
 }
-header p{
+header p, a{
     text-align: center;
     font-size: 30px;
     border:3px solid #2A27B4;
@@ -28,14 +39,15 @@ header p{
 
 }
 .class{
+    position: relative;
     display: flex;
     justify-content: space-around;
+    bottom: 100px;
 }
 header div{
     justify-content: space-around;
 }
 .class{
-
     display: flex;
     justify-content: space-around;
 }
@@ -47,6 +59,7 @@ main h1{
 
 }
 .zagolovok{
+    margin-top: 105px;
     font-size: 50px;
     border:3px solid #2A27B4;
     border-radius: 20px;
@@ -96,7 +109,7 @@ main h1{
     font-size: 45px;
 }
 .r{
-    width: 1500px;
+    width: 100%;
     float: left;
     font-size: 40px;
     background-color: #FEFFC8;
@@ -113,6 +126,12 @@ main h1{
 }
 .rar{
     font-size: 50px;
+}
+.rar::before{
+    content: url("https://github.com/voloshuk2021/site-2/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202022-04-17%20134138.png?raw=true");
+    width: 40px;
+    height: 30px;
+    display: inline;
 }
 footer p{
     background-color: #00CC00;
