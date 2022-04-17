@@ -2,7 +2,10 @@ body {
     font-family: sans-serif;
 }
 header{
+    position: fixed;
     background-color: #00F845;
+    top:0px
+    right:0px
 
 }
 header h1{
